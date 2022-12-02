@@ -1,0 +1,116 @@
+.card-img-top {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    }
+
+.card-body{
+    background-color: rgb(244, 214, 183);
+}    
+
+.header{
+    background-image: linear-gradient(rgba(224, 224, 224, 0.222), rgba(224, 224, 224, 0.222)), url('img/light-bg.jpg');
+   /* background-image: url('img/light-bg.jpg'); */
+   background-size: cover;
+   
+}
+
+.navbar-brand{
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-shadow: 0 0 3px #000000;
+}
+
+.info{
+    /* background-image: url('https://images.pexels.com/photos/172296/pexels-photo-172296.jpeg?auto=compress&cs=tinysrgb&w=400'); */
+    background-image: linear-gradient(rgba(99, 97, 97, 0.112), rgba(99, 97, 97, 0.112)), url('img/light-bg.jpg');
+    text-shadow: 0 0 2px #ffffff9d;
+    background-size: cover;
+}
+
+.info-btn{
+    background: rgba(0, 0, 0, 0.2);
+    border-color:rgba(0, 0, 0,0.8);
+    text-shadow: 0 0 1px #ffffff9d;
+    text-align:center;
+    font-weight: 500;
+    width: 98%;
+    font-size: 1.05rem;
+
+}
+
+/* .info-a{
+    width: 100vw; //not needed ig
+} */
+
+.info-a:hover{
+    color: unset;
+}
+
+.sticky-button{
+    border-color:#000000;
+    text-shadow: 0 0 1px #ffffff9d;
+}
+
+.sticky-button:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.sticky-a:hover{
+    color:unset;
+}
+
+.products{
+    background-image: linear-gradient(rgba(99, 97, 97, 0.112), rgba(99, 97, 97, 0.112)), url('img/light-bg.jpg');
+    overflow: hidden;
+    background-size: cover;
+    /* text-shadow: 0 0 2px #ffffff9d; */
+}
+
+.products > h4{
+    text-shadow: 1 1 2px #fff5f5;
+    font-size: 1.3rem;
+}
+
+.footer{
+    background-image: linear-gradient(rgba(99, 97, 97, 0.5), rgba(99, 97, 97, 0.5)), url('img/footer.jpg');
+   /* padding: 90px 90px; */
+   background-size:cover;
+   color:white;
+   border-top:3px #fff5f5;
+   overflow:hidden;
+}
+
+hr.line {
+    overflow: visible; /* For IE */
+    height: 25px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.line:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 25px;
+    margin-top: -26px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+.mt-n1 {
+    margin-top: -1.25rem !important;
+  }
+
+#contactno{
+    color: white;
+    text-decoration: none;
+}
+
+.mapouter{position:relative;text-align:right;width:95%;height:400px;}
+
+.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}
+
+.gmap_iframe {height:400px!important;}
