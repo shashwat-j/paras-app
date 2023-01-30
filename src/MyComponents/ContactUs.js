@@ -19,7 +19,7 @@ export const ContactUs = () => {
         {/* <p className='mb-0 mt-n1'>ADDRESS:</p> */}
         <p className='mt-n1' data-aos="zoom-out-up">Main Noida Road, Near Chiila Sport Complex, Dallupura, Mayur Vihar Phase 3, Delhi</p>
        
-        <div className="mapouter m-2 border border-white rounded"><div className="gmap_canvas"><iframe className="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=paras timber dallupura&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://formatjson.org/">format json</a></div></div>
+        <div className="mapouter m-2 border border-white rounded me-auto ms-auto"><div className="gmap_canvas"><iframe className="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=paras timber dallupura&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://formatjson.org/">format json</a></div></div>
          <a id='contactno' href='tel: +919927261789'>CONTACT NO: +91 9927261789</a>
     </div>
   )

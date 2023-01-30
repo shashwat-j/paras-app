@@ -4,12 +4,13 @@ import {Header} from './MyComponents/Header.js';
 import {Info} from './MyComponents/Info.js';
 import {Products} from './MyComponents/Products.js';
 import {ContactUs} from './MyComponents/ContactUs.js';
+import { useState } from 'react';
 
 
 
 function App() {
 
-  const location="https://goo.gl/maps/Z1qEQFo8Dxpw3Ybx8";
+  const location="https://goo.gl/maps/WMBPxkCqTBsSwpEGA";
 
   const products = [
     {
@@ -72,6 +73,8 @@ function App() {
     },
   ]
 
+  const [products1, setProducts] = useState(products)
+
   function productsScroll() {
     var topOfElement = document.querySelector('#products').offsetTop;
     window.scroll({ top: topOfElement, behavior: "smooth" });
@@ -80,9 +83,9 @@ function App() {
 
   return (
     <div className="App">
-     <Header location={location}/>
+     <Header location={location} products1={products1} products={products} setProducts1={setProducts}/>
      <Info location={location}/>
-     <Products products={products}/>
+     <Products products={products1}/>
      <ContactUs />
     </div>
   );

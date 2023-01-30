@@ -6,7 +6,11 @@
 
 .card-body{
     background-color: rgb(244, 214, 183);
-}    
+}
+
+.card{
+    cursor: pointer;
+}
 
 .header{
     background-image: linear-gradient(rgba(224, 224, 224, 0.222), rgba(224, 224, 224, 0.222)), url('img/light-bg.jpg');
@@ -60,6 +64,10 @@
     color:unset;
 }
 
+.search{
+    background-color: rgb(255, 248, 235);
+}
+
 .products{
     background-image: linear-gradient(rgba(99, 97, 97, 0.112), rgba(99, 97, 97, 0.112)), url('img/light-bg.jpg');
     overflow: hidden;
@@ -70,6 +78,13 @@
 .products > h4{
     text-shadow: 1 1 2px #fff5f5;
     font-size: 1.3rem;
+}
+
+.notFound{
+    color: rgb(236, 229, 229);
+    font-weight:500;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-shadow: 0 0 3px #000000;
 }
 
 .footer{
