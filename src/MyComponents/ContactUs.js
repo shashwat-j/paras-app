@@ -12,7 +12,9 @@ export const ContactUs = () => {
     <div className='footer pb-3' id='reachUs'>
         <h4 className='pt-3' data-aos="zoom-out-down">About Us</h4>
         <hr className='line'></hr>
-        <p className='mx-2 mt-n1' data-aos="zoom-out-up">We are well noted in the industry as Leading Supplier of quality products like Sunmica and Plywood with years of providing value and building trust.</p>
+        <p className='mx-2 mt-n1' data-aos="zoom-out-up">
+          With years of experience, we are a trusted supplier and established dealer of high-quality wood and panel products, specializing in Plywood, Flush Doors, HDHMR, WPC Boards, Sunmica, PVC Boards, Laminates, Mouldings, Pine Wood, Marandi Wood, and Timber. Serving Delhi, Noida, Ghaziabad, and Haryana, our commitment to excellence and reliability has made us a go-to provider for durable and stylish building materials. Whether for residential or commercial needs, we prioritize quality, value, and customer satisfaction in every product we offer.
+        </p>
 
         <h4 className='mt-4' data-aos="zoom-out-down">Reach Us</h4>
         <hr className='line'></hr>
